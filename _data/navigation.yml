@@ -1,6 +1,9 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Research"
-    url: /research/  
-
+    url: /research/
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+  - title: "¯&#92;&#95;(ツ)&#95;/¯"
+    url: /other/

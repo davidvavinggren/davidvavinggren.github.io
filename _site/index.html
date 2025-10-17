@@ -11,15 +11,7 @@
 
 <!-- begin SEO -->
 
-
-
-
-
-
-
-
-
-<title>About me  Home</title>
+<title>David Vävinggren | Home</title>
 
 
 
@@ -79,6 +71,8 @@
 
 <!-- start custom head snippets -->
 
+<title>Davva – Machine Learning</title>
+
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="http://localhost:4000/images/favicon.svg"/>
@@ -98,7 +92,12 @@
 
   </head>
 
-  <body>
+  
+  
+
+  <body
+    class="layout--single wide has-sidebar">
+
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -111,14 +110,33 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="http://localhost:4000/">Home</a></li>
+          <!-- Keep Home first (left) -->
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="http://localhost:4000/">Home</a>
+          </li>
+
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Research</a></li>
+            
+
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Home</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+            
+
+            <li class="masthead__menu-item persist"><a href="http://localhost:4000/research/">Research</a></li>
           
+            
+            
+
+            <li class="masthead__menu-item persist"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+          
+            
+            
+
+            <li class="masthead__menu-item persist"><a href="http://localhost:4000/other/">¯&#92;&#95;(ツ)&#95;/¯</a></li>
+          
+
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
@@ -135,8 +153,12 @@
 
 
 
+
+
+
 <div id="main" role="main">
   
+    
 
 
   <div class="sidebar sticky">
@@ -161,14 +183,21 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      <!-- Font Awesome icons / Biographic information  -->
-      
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Uppsala University, Sweden</li>
-      
-      
-      
-      
-        <li><a href="mailto:david.vavinggren@it.uu.se"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <!-- Font Awesome icons / Biographic information  -->
+        
+          <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Uppsala, Sweden</li>
+        
+        
+        
+          <li class="author__desktop">
+            <i class="fas fa-graduation-cap icon-pad-small" aria-hidden="true"></i>
+            <span itemprop="affiliation">Uppsala University</span>
+          </li>
+        
+        
+        
+          <li><a href="mailto:david.vavinggren@it.uu.se"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -229,8 +258,10 @@
   
   </div>
 
+  
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page"
+           itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="About me">
     
     
@@ -253,7 +284,7 @@
 
 <p>In January 2025, I started my journey as a PhD student at <a href="https://www.uu.se/">Uppsala University</a>. Specifically, I am employed by the <a href="https://www.uu.se/en/department/information-technology/research/control-and-dynamical-systems/division-of-systems-and-control">Division of Systems and Control</a> at the <a href="https://www.uu.se/en/department/information-technology">Department of Information Technology</a>.</p>
 
-<p>I am supervised by <a href="https://antonior92.github.io/">Antonio Hôrta Ribeiro</a>, and co-supervised <a href="https://www.andre-teixeira.eu/">André Teixeira</a> and <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N13-1398">Dave Zachariah</a>. My research lies in the intersection between statistics and machine learning, where i currently work on adversarial training for linear models.</p>
+<p>I am supervised by <a href="https://antonior92.github.io/">Antônio Horta Ribeiro</a>, and co-supervised <a href="https://www.andre-teixeira.eu/">André Teixeira</a> and <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N13-1398">Dave Zachariah</a>. My research lies in the intersection between statistics and machine learning, where i currently work on adversarial training for linear models.</p>
 
 
         
@@ -308,7 +339,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2025 David Vävinggren, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2025-09-23
+  Site last updated 2025-10-17
 </div>
 
       </footer>

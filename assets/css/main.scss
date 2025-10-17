@@ -39,5 +39,61 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
+    "vendor/magnific-popup/magnific-popup",
+
+    "movies"
 ;
+
+/* Home left, everything else right */
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav .visible-links li:first-child {
+  margin-right: auto; /* pushes the rest to the right */
+}
+
+/* spacing before the star */
+.greedy-nav #theme-toggle { margin-left: 0.75rem; }
+
+/* Optional: hide the hamburger on desktop only */
+@media (min-width: 768px) {
+  .greedy-nav > button { display: none; }
+}
+
+/* Full-width by default; only narrow when a sidebar is present */
+@media (min-width: 768px) {
+  /* Default: no sidebar => full width */
+  #main > article.page {
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* If the sidebar is in the DOM before the article, narrow it */
+  #main > .sidebar + article.page {
+    float: right !important;
+    width: calc(100% - 300px) !important;
+  }
+}
+
+.icon-pad-small {
+  padding-right: 0.21em; /* less than the default 0.5em */
+}
+
+/* ============================= */
+/* Global link overrides         */
+/* ============================= */
+
+a {
+  color: #3498DB;     /* normal link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);    /* hover link color */
+  text-decoration: underline;
+}

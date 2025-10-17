@@ -1,0 +1,44 @@
+{%- comment -%}
+_includes/movies.html
+Renders movie cards using site.data.movies
+{%- endcomment -%}
+
+<style>
+  /* keep or move to your main CSS */
+  .movie-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-block: 1rem 2rem; }
+  .movie-card { position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.08); transition: transform .15s ease, box-shadow .15s ease; background: var(--bg, #111); }
+  .movie-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+  .movie-card img { width: 100%; height: 270px; object-fit: cover; display:block; }
+  .movie-meta { padding: .6rem .75rem .8rem; display:flex; flex-direction:column; gap:.25rem; }
+  .movie-title { font-size: .98rem; font-weight: 600; line-height: 1.15; }
+  .movie-kicker { font-size: .85rem; opacity:.8; }
+  .movie-year { font-variant-numeric: tabular-nums; opacity:.75; }
+  .movie-links { display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.4rem; }
+  .movie-link { font-size:.8rem; text-decoration: underline; opacity:.9; }
+</style>
+
+{%- assign movies = site.data.movies | sort: "year" | reverse -%}
+
+<div class="movie-header" style="display:flex;align-items:center;gap:.75rem;">
+  <h2 id="movies-i-like" style="margin:0;">Movies I Like</h2>
+  <span class="movie-subtle" style="opacity:.8;">— a small, evolving list</span>
+</div>
+
+<div class="movie-grid">
+  {%- for m in movies -%}
+    <article class="movie-card" aria-label="{{ m.title }} ({{ m.year }}) by {{ m.director }}">
+      {%- if m.poster -%}
+      <img src="{{ m.poster }}" alt="{{ m.title }} – poster" loading="lazy" decoding="async">
+      {%- endif -%}
+      <div class="movie-meta">
+        <div class="movie-title">{{ m.title }}</div>
+        <div class="movie-kicker">{{ m.director }} · <span class="movie-year">{{ m.year }}</span></div>
+        <div class="movie-links">
+          {%- if m.imdb -%}<a class="movie-link" href="{{ m.imdb }}" target="_blank" rel="noopener">IMDb</a>{%- endif -%}
+          {%- if m.rottentomatoes -%}<a class="movie-link" href="{{ m.rottentomatoes }}" target="_blank" rel="noopener">rottentomatoes</a>{%- endif -%}
+          {%- if m.other -%}<a class="movie-link" href="{{ m.other }}" target="_blank" rel="noopener">Link</a>{%- endif -%}
+        </div>
+      </div>
+    </article>
+  {%- endfor -%}
+</div>

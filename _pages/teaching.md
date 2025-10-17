@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-type: teaching
 permalink: /teaching/
+layout: single
 ---
 ~work in progress~

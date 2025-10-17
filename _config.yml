@@ -13,7 +13,8 @@ author:
   avatar: "david.jpg"
   name: "David Vävinggren"
   bio: "PhD Student in Machine Learning"
-  location: "Uppsala University, Sweden"
+  university: "Uppsala University"
+  location: "Uppsala, Sweden"
   email: "david.vavinggren@it.uu.se"
   googlescholar: "https://scholar.google.com/citations?user=yAn3qh8AAAAJ&hl=sv"
   orcid: "https://orcid.org/0009-0004-6036-0371"
@@ -23,17 +24,11 @@ author:
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
       author_profile: false
+      toc: false
+      classes: wide
 
 markdown: kramdown
 highlighter: rouge

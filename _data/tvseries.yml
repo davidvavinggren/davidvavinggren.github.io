@@ -1,0 +1,231 @@
+# _data/tvseries.yml
+- title: "Game of Thrones"
+  director: "David Benioff, D.B. Weiss"
+  year: 2011
+  poster: "https://www.themoviedb.org/t/p/w1280/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg"
+  imdb: "https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_game%2520of%2520thrones"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/game_of_thrones"
+
+- title: "Breaking Bad"
+  director: "Vince Gilligan"
+  year: 2008
+  poster: "https://www.themoviedb.org/t/p/w1280/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  imdb: "https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_breaking%2520bad"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/breaking_bad"
+
+- title: "Stranger Things"
+  director: "Matt Duffer, Ross Duffer"
+  year: 2016
+  poster: "https://www.themoviedb.org/t/p/w1280/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+  imdb: "https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_stranger%2520things"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/stranger_things"
+
+- title: "Better Call Saul"
+  director: "Vince Gilligan, Peter Gould"
+  year: 2015
+  poster: "https://www.themoviedb.org/t/p/w1280/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg"
+  imdb: "https://www.imdb.com/title/tt3032476/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_better%2520call%2520sau"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/better_call_saul"
+
+- title: "True Detective"
+  director: "Nic Pizzolatto, Issa López"
+  year: 2014
+  poster: "https://image.tmdb.org/t/p/original/mV16EBXQ6kDWpj31P6BEhmzTTkd.jpg"
+  imdb: "https://www.imdb.com/title/tt2356777/?ref_=rt_t_5"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/true_detective"
+
+- title: "The Office"
+  director: "Greg Daniels, Ricky Gervais, Stephen Merchant"
+  year: 2005
+  poster: "https://www.themoviedb.org/t/p/w1280/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
+  imdb: "https://www.imdb.com/title/tt0386676/?ref_=rt_t_6"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_office"
+
+- title: "The Last of Us"
+  director: "Neil Druckmann, Craig Mazin"
+  year: 2023
+  poster: "https://www.themoviedb.org/t/p/w1280/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg"
+  imdb: "https://www.imdb.com/title/tt3581920/?ref_=rt_t_7"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_last_of_us"
+
+- title: "Sherlock"
+  director: "Mark Gatiss, Steven Moffat"
+  year: 2010
+  poster: "https://www.themoviedb.org/t/p/w1280/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg"
+  imdb: "https://www.imdb.com/title/tt1475582/?ref_=rt_t_8"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/sherlock"
+
+- title: "How I Met Your Mother"
+  director: "Carter Bays, Craig Thomas"
+  year: 2005
+  poster: "https://www.themoviedb.org/t/p/w1280/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg"
+  imdb: "https://www.imdb.com/title/tt0460649/?ref_=rt_t_9"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/how_i_met_your_mother"
+
+- title: "Money Heist"
+  director: "Álex Pina"
+  year: 2017
+  poster: "https://www.themoviedb.org/t/p/w1280/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+  imdb: "https://www.imdb.com/title/tt6468322/?ref_=rt_t_10"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/money_heist"
+
+- title: "Daredevil"
+  director: "Drew Goddard"
+  year: 2015
+  poster: "https://www.themoviedb.org/t/p/w1280/QWbPaDxiB6LW2LjASknzYBvjMj.jpg"
+  imdb: "https://www.imdb.com/title/tt3322312/?ref_=rt_t_11"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/daredevil"
+
+- title: "Narcos"
+  director: "Chris Brancato, Carlo Bernard, Doug Miro"
+  year: 2015
+  poster: "https://www.themoviedb.org/t/p/w1280/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
+  imdb: "https://www.imdb.com/title/tt2707408/?ref_=rt_t_12"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/narcos"
+
+- title: "The Punisher"
+  director: "Steve Lightfoot"
+  year: 2017
+  poster: "https://www.themoviedb.org/t/p/w1280/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg"
+  imdb: "https://www.imdb.com/title/tt5675620/?ref_=rt_t_13"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/marvels_the_punisher"
+
+- title: "The Bridge"
+  director: "Måns Mårlind, Hans Rosenfeldt, Björn Stein"
+  year: 2011
+  poster: "https://image.tmdb.org/t/p/original/rTm3gDJfmjaiHS017JJ0Bt6wlvP.jpg"
+  imdb: "https://www.imdb.com/title/tt1733785/?ref_=rt_t_14"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_bridge_2011"
+
+- title: "The Chestnut Man"
+  director: "Dorte Warnøe Høgh, Søren Sveistrup, Mikkel Serup"
+  year: 2021
+  poster: "https://www.themoviedb.org/t/p/w1280/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg"
+  imdb: "https://www.imdb.com/title/tt10834220/?ref_=rt_t_15"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_chestnut_man"
+
+- title: "Dexter"
+  director: "James Manos Jr."
+  year: 2006
+  poster: "https://www.themoviedb.org/t/p/w1280/q8dWfc4JwQuv3HayIZeO84jAXED.jpg"
+  imdb: "https://www.imdb.com/title/tt0773262/?ref_=rt_t_17"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/dexter"
+
+- title: "The Sopranos"
+  director: "David Chase"
+  year: 1999
+  poster: "https://www.themoviedb.org/t/p/w1280/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg"
+  imdb: "https://www.imdb.com/title/tt0141842/?ref_=rt_t_18"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_sopranos"
+
+- title: "The Wire"
+  director: "David Simon"
+  year: 2002
+  poster: "https://www.themoviedb.org/t/p/w1280/4lbclFySvugI51fwsyxBTOm4DqK.jpg"
+  imdb: "https://www.imdb.com/title/tt0306414/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_the%2520wire"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the-wire"
+
+- title: "From"
+  director: "John Griffin"
+  year: 2022
+  poster: "https://www.themoviedb.org/t/p/w1280/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg"
+  imdb: "https://www.imdb.com/title/tt9813792/?ref_=rt_t_19"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/from"
+
+- title: "The Bear"
+  director: "Christopher Storer"
+  year: 2022
+  poster: "https://www.themoviedb.org/t/p/w1280/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg"
+  imdb: "https://www.imdb.com/title/tt14452776/?ref_=rt_t_20"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_bear"
+
+- title: "Peaky Blinders"
+  director: "Steven Knight"
+  year: 2013
+  poster: "https://www.themoviedb.org/t/p/w1280/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg"
+  imdb: "https://www.imdb.com/title/tt2442560/?ref_=rt_t_21"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/peaky_blinders"
+
+- title: "Squid Game"
+  director: "Hwang Dong-hyuk"
+  year: 2021
+  poster: "https://www.themoviedb.org/t/p/w1280/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg"
+  imdb: "https://www.imdb.com/title/tt10919420/?ref_=rt_t_25"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/squid_game"
+
+- title: "Sex Education"
+  director: "Laurie Nunn"
+  year: 2019
+  poster: "https://www.themoviedb.org/t/p/w1280/bc3bmTdnoKcRuO9xdQKgAbB7Y9Z.jpg"
+  imdb: "https://www.imdb.com/title/tt7767422/?ref_=rt_t_26"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/sex_education"
+
+- title: "The Mandalorian"
+  director: "Jon Favreau"
+  year: 2019
+  poster: "https://www.themoviedb.org/t/p/w1280/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg"
+  imdb: "https://www.imdb.com/title/tt8111088/?ref_=rt_t_27"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_mandalorian"
+
+- title: "Mindhunter"
+  director: "Joe Penhall"
+  year: 2017
+  poster: "https://www.themoviedb.org/t/p/w1280/fbKE87mojpIETWepSbD5Qt741fp.jpg"
+  imdb: "https://www.imdb.com/title/tt5290382/?ref_=rt_t_29"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/mindhunter"
+
+- title: "Andor"
+  director: "Tony Gilroy"
+  year: 2022
+  poster: "https://www.themoviedb.org/t/p/w1280/khZqmwHQicTYoS7Flreb9EddFZC.jpg"
+  imdb: "https://www.imdb.com/title/tt9253284/?ref_=rt_t_30"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/andor"
+
+- title: "After Life"
+  director: "Ricky Gervais"
+  year: 2019
+  poster: "https://www.themoviedb.org/t/p/w1280/6eJf4h9XcvqK64vbx27EFlLVURm.jpg"
+  imdb: "https://www.imdb.com/title/tt8398600/?ref_=rt_t_39"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/after_life"
+
+- title: "Chernobyl"
+  director: "Craig Mazin"
+  year: 2019
+  poster: "https://www.themoviedb.org/t/p/w1280/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+  imdb: "https://www.imdb.com/title/tt7366338/?ref_=rt_t_1"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/chernobyl"
+
+- title: "Band of Brothers"
+  director: "David Frankel, Mikael Salomon"
+  year: 2001
+  poster: "https://www.themoviedb.org/t/p/w1280/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg"
+  imdb: "https://www.imdb.com/title/tt0185906/?ref_=rt_t_2"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/band_of_brothers"
+
+- title: "The Last Dance"
+  director: "Jason Hehir"
+  year: 2020
+  poster: "https://www.themoviedb.org/t/p/w1280/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg"
+  imdb: "https://www.imdb.com/title/tt8420184/?ref_=rt_t_3"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_last_dance"
+
+- title: "Dexter: New Blood"
+  director: "Clyde Phillips"
+  year: 2021
+  poster: "https://www.themoviedb.org/t/p/w1280/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg"
+  imdb: "https://www.imdb.com/title/tt14164730/?ref_=rt_t_4"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/dexter_new_blood"
+
+- title: "Dopesick"
+  director: "Danny Strong"
+  year: 2021
+  poster: "https://www.themoviedb.org/t/p/w1280/qW8Gpddy29faTcD7VuyKjwLXbKU.jpg"
+  imdb: "https://www.imdb.com/title/tt9174558/?ref_=rt_t_5"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/dopesick"
+
+- title: "The Penguin"
+  director: "Lauren LeFranc"
+  year: 2024
+  poster: "https://www.themoviedb.org/t/p/w1280/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg"
+  imdb: "https://www.imdb.com/title/tt15435876/?ref_=rt_t_8"
+  rottentomatoes: "https://www.rottentomatoes.com/tv/the_penguin"

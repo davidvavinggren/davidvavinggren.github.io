@@ -1,0 +1,378 @@
+# _data/movies.yml
+- title: "Arrival"
+  director: "Denis Villeneuve"
+  year: 2016
+  poster: "https://www.themoviedb.org/t/p/w1280/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg"
+  imdb: "https://www.imdb.com/title/tt2543164/"
+  rottentomatoes: "https://www.rottentomatoes.com/m/arrival_2016"
+
+- title: "One Battle After Another"
+  director: "Paul Thomas Anderson"
+  year: 2025
+  poster: "https://www.themoviedb.org/t/p/w1280/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg"
+  imdb: "https://www.imdb.com/title/tt30144839/?ref_=rt_t_1"
+  rottentomatoes: "https://www.rottentomatoes.com/m/one_battle_after_another"
+
+- title: "Spirited Away"
+  director: "Hayao Miyazaki"
+  year: 2001
+  poster: "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+  imdb: "https://www.imdb.com/title/tt0245429/"
+  rottentomatoes: "https://www.rottentomatoes.com/m/spirited_away"
+
+- title: "The Shawshank Redemption"
+  director: "Frank Darabont"
+  year: 1994
+  poster: "https://www.themoviedb.org/t/p/w1280/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+  imdb: "https://www.imdb.com/title/tt0111161/?ref_=rt_t_2"
+  rottentomatoes: "https://www.rottentomatoes.com/m/shawshank_redemption"
+
+- title: "Interstellar"
+  director: "Christopher Nolan"
+  year: 2014
+  poster: "https://www.themoviedb.org/t/p/w1280/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  imdb: "https://www.imdb.com/title/tt0816692/?ref_=rt_t_3"
+  rottentomatoes: "https://www.rottentomatoes.com/m/interstellar_2014"
+
+- title: "Inception"
+  director: "Christopher Nolan"
+  year: 2010
+  poster: "https://www.themoviedb.org/t/p/w1280/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+  imdb: "https://www.imdb.com/title/tt1375666/?ref_=rt_t_4"
+  rottentomatoes: "https://www.rottentomatoes.com/m/inception"
+
+- title: "The Dark Knight"
+  director: "Christopher Nolan"
+  year: 2008
+  poster: "https://www.themoviedb.org/t/p/w1280/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  imdb: "https://www.imdb.com/title/tt0468569/?ref_=rt_t_5"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_dark_knight"
+
+- title: "The Dark Knight Rises"
+  director: "Christopher Nolan"
+  year: 2012
+  poster: "https://www.themoviedb.org/t/p/w1280/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
+  imdb: "https://www.imdb.com/title/tt1345836/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dark%2520knight%2520rises"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_dark_knight_rises"
+
+- title: "Django Unchained"
+  director: "Quentin Tarantino"
+  year: 2012
+  poster: "https://www.themoviedb.org/t/p/w1280/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+  imdb: "https://www.imdb.com/title/tt1853728/?ref_=rt_t_7"
+  rottentomatoes: "https://www.rottentomatoes.com/m/django_unchained_2012"
+
+- title: "The Intouchables"
+  director: "Olivier Nakache, Éric Toledano"
+  year: 2011
+  poster: "https://www.themoviedb.org/t/p/w1280/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg"
+  imdb: "https://www.imdb.com/title/tt1675434/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520intouch"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_intouchables"
+
+- title: "American History X"
+  director: "Tony Kaye"
+  year: 2011
+  poster: "https://www.themoviedb.org/t/p/w1280/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg"
+  imdb: "https://www.imdb.com/title/tt0120586/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_american%2520histo"
+  rottentomatoes: "https://www.rottentomatoes.com/m/american_history_x"
+
+- title: "Catch Me If You Can"
+  director: "Steven Spielberg"
+  year: 2002
+  poster: "https://www.themoviedb.org/t/p/w1280/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+  imdb: "https://www.imdb.com/title/tt0264464/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_catch%2520me%2520"
+  rottentomatoes: "https://www.rottentomatoes.com/m/catch_me_if_you_can"
+
+- title: "A Beautiful Mind"
+  director: "Ron Howard"
+  year: 2001
+  poster: "https://www.themoviedb.org/t/p/w1280/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg"
+  imdb: "https://www.imdb.com/title/tt0268978/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_a%2520beautiful%2520min"
+  rottentomatoes: "https://www.rottentomatoes.com/m/beautiful_mind"
+
+- title: "Star Wars: Episode III - Revenge of the Sith"
+  director: "George Lucas"
+  year: 2005
+  poster: "https://www.themoviedb.org/t/p/w1280/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg"
+  imdb: "https://www.imdb.com/title/tt0121766/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_star%2520wars%2520III"
+  rottentomatoes: "https://www.rottentomatoes.com/m/star_wars_episode_iii_revenge_of_the_sith"
+
+- title: "Star Wars: Episode V - The Empire Strikes Back"
+  director: "George Lucas"
+  year: 1980
+  poster: "https://www.themoviedb.org/t/p/w1280/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
+  imdb: "https://www.imdb.com/title/tt0080684/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_star%2520wars%2520V"
+  rottentomatoes: "https://www.rottentomatoes.com/m/star_wars_episode_v_the_empire_strikes_back"
+
+- title: "The Imitation Game"
+  director: "Morten Tyldum"
+  year: 2014
+  poster: "https://www.themoviedb.org/t/p/w1280/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"
+  imdb: "https://www.imdb.com/title/tt2084970/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520imit"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_imitation_game"
+
+- title: "Star Wars: Episode VII - The Force Awakens"
+  director: "George Lucas"
+  year: 2015
+  poster: "https://www.themoviedb.org/t/p/w1280/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg"
+  imdb: "https://www.imdb.com/title/tt2488496/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_force%2520awakens"
+  rottentomatoes: "https://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens"
+
+- title: "The Invisible Guest"
+  director: "Oriol Paulo"
+  year: 2016
+  poster: "https://www.themoviedb.org/t/p/w1280/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg"
+  imdb: "https://www.imdb.com/title/tt4857264/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_the%2520invisible%2520guest"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_invisible_guest"
+
+- title: "Oppenheimer"
+  director: "Christopher Nolan"
+  year: 2023
+  poster: "https://www.themoviedb.org/t/p/w1280/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+  imdb: "https://www.imdb.com/title/tt15398776/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_oppenheimer"
+  rottentomatoes: "https://www.rottentomatoes.com/m/oppenheimer_2023"
+
+- title: "The Lord of the Rings: The Fellowship of the Ring"
+  director: "Peter Jackson"
+  year: 2001
+  poster: "https://www.themoviedb.org/t/p/w1280/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+  imdb: "https://www.imdb.com/title/tt0120737/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_lord%2520of%2520the%2520rings"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_fellowship_of_the_ring"
+
+- title: "The Lord of the Rings: The Two Towers"
+  director: "Peter Jackson"
+  year: 2002
+  poster: "https://www.themoviedb.org/t/p/w1280/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+  imdb: "https://www.imdb.com/title/tt0167261/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_two%2520towers"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_two_towers"
+
+- title: "The Lord of the Rings: The Return of the King"
+  director: "Peter Jackson"
+  year: 2003
+  poster: "https://www.themoviedb.org/t/p/w1280/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  imdb: "https://www.imdb.com/title/tt0167260/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_king%2520lord%2520of"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_return_of_the_king"
+
+- title: "Forrest Gump"
+  director: "Robert Zemeckis"
+  year: 1994
+  poster: "https://www.themoviedb.org/t/p/w1280/saHP97rTPS5eLmrLQEcANmKrsFl.jpg"
+  imdb: "https://www.imdb.com/title/tt0109830/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_forrest%2520gum"
+  rottentomatoes: "https://www.rottentomatoes.com/m/forrest_gump"
+
+- title: "Inglourious Basterds"
+  director: "Quentin Tarantino"
+  year: 2009
+  poster: "https://www.themoviedb.org/t/p/w1280/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+  imdb: "https://www.imdb.com/title/tt0361748/?ref_=nv_sr_srsg_4_tt_8_nm_0_in_0_q_inglorious"
+  rottentomatoes: "https://www.rottentomatoes.com/m/inglourious_basterds"
+
+- title: "Pulp Fiction"
+  director: "Quentin Tarantino"
+  year: 1994
+  poster: "https://www.themoviedb.org/t/p/w1280/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  imdb: "https://www.imdb.com/title/tt0110912/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_pulp%2520fiction"
+  rottentomatoes: "https://www.rottentomatoes.com/m/pulp_fiction"
+
+- title: "The Departed"
+  director: "Martin Scorsese"
+  year: 2006
+  poster: "https://www.themoviedb.org/t/p/w1280/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+  imdb: "https://www.imdb.com/title/tt0407887/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520departed"
+  rottentomatoes: "https://www.rottentomatoes.com/m/departed"
+
+- title: "The Usual Suspects"
+  director: "Bryan Singer"
+  year: 2006
+  poster: "https://www.themoviedb.org/t/p/w1280/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg"
+  imdb: "https://www.imdb.com/title/tt0114814/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_the%2520usual%2520s"
+  rottentomatoes: "https://www.rottentomatoes.com/m/usual_suspects"
+
+- title: "Dune: Part Two"
+  director: "Denis Villeneuve"
+  year: 2024
+  poster: "https://www.themoviedb.org/t/p/w1280/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+  imdb: "https://www.imdb.com/title/tt15239678/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dune%2520part%2520two"
+  rottentomatoes: "https://www.rottentomatoes.com/m/dune_part_two"
+
+- title: "The Batman"
+  director: "Matt Reeves"
+  year: 2022
+  poster: "https://www.themoviedb.org/t/p/w1280/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+  imdb: "https://www.imdb.com/title/tt1877830/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520batman"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_batman"
+
+- title: "Prisoners"
+  director: "Denis Villeneuve"
+  year: 2013
+  poster: "https://www.themoviedb.org/t/p/w1280/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg"
+  imdb: "https://www.imdb.com/title/tt1392214/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_prisoners"
+  rottentomatoes: "https://www.rottentomatoes.com/m/prisoners_2013"
+
+- title: "Whiplash"
+  director: "Damien Chazelle"
+  year: 2014
+  poster: "https://www.themoviedb.org/t/p/w1280/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  imdb: "https://www.imdb.com/title/tt2582802/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_whiplash"
+  rottentomatoes: "https://www.rottentomatoes.com/m/whiplash_2014"
+
+- title: "Heat"
+  director: "Michael Mann"
+  year: 1995
+  poster: "https://www.themoviedb.org/t/p/w1280/umSVjVdbVwtx5ryCA2QXL44Durm.jpg"
+  imdb: "https://www.imdb.com/title/tt0113277/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_heat"
+  rottentomatoes: "https://www.rottentomatoes.com/m/heat_1995"
+
+- title: "Gladiator"
+  director: "Ridley Scott"
+  year: 2000
+  poster: "https://www.themoviedb.org/t/p/w1280/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+  imdb: "https://www.imdb.com/title/tt0172495/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_gladi"
+  rottentomatoes: "https://www.rottentomatoes.com/m/gladiator"
+
+- title: "Memento"
+  director: "Christopher Nolan"
+  year: 2000
+  poster: "https://www.themoviedb.org/t/p/w1280/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg"
+  imdb: "https://www.imdb.com/title/tt0209144/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_Memento"
+  rottentomatoes: "https://www.rottentomatoes.com/m/memento"
+
+- title: "Kill Bill: Vol. 1"
+  director: "Quentin Tarantino"
+  year: 2003
+  poster: "https://www.themoviedb.org/t/p/w1280/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+  imdb: "https://www.imdb.com/title/tt0266697/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_kill%2520b"
+  rottentomatoes: "https://www.rottentomatoes.com/m/kill_bill_vol_1"
+
+- title: "Scarface"
+  director: "Brian De Palma"
+  year: 1983
+  poster: "https://www.themoviedb.org/t/p/w1280/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg"
+  imdb: "https://www.imdb.com/title/tt0086250/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_scarface"
+  rottentomatoes: "https://www.rottentomatoes.com/m/scarface"
+
+- title: "La La Land"
+  director: "Damien Chazelle"
+  year: 2016
+  poster: "https://www.themoviedb.org/t/p/w1280/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+  imdb: "https://www.imdb.com/title/tt3783958/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_la%2520la%2520land"
+  rottentomatoes: "https://www.rottentomatoes.com/m/la_la_land"
+
+- title: "Rogue One: A Star Wars Story"
+  director: "Gareth Edwards"
+  year: 2016
+  poster: "https://www.themoviedb.org/t/p/w1280/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg"
+  imdb: "https://www.imdb.com/title/tt3748528/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_rogue%2520one"
+  rottentomatoes: "https://www.rottentomatoes.com/m/rogue_one_a_star_wars_story"
+
+- title: "Rain Man"
+  director: "Barry Levinson"
+  year: 1988
+  poster: "https://www.themoviedb.org/t/p/w1280/iTNHwO896WKkaoPtpMMS74d8VNi.jpg"
+  imdb: "https://www.imdb.com/title/tt0095953/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_rain%2520man"
+  rottentomatoes: "https://www.rottentomatoes.com/m/rain_man"
+
+- title: "Captain Phillips"
+  director: "Paul Greengrass"
+  year: 2013
+  poster: "https://www.themoviedb.org/t/p/w1280/2x8ida0rHokUv80Ah4eBNb2eXas.jpg"
+  imdb: "https://www.imdb.com/title/tt1535109/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_captain%2520phi"
+  rottentomatoes: "https://www.rottentomatoes.com/m/captain_phillips"
+
+- title: "When Harry Met Sally..."
+  director: "Rob Reiner"
+  year: 2013
+  poster: "https://www.themoviedb.org/t/p/w1280/rFOiFUhTMtDetqCGClC9PIgnC1P.jpg"
+  imdb: "https://www.imdb.com/title/tt0098635/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_when%2520harry%2520met"
+  rottentomatoes: "https://www.rottentomatoes.com/m/when_harry_met_sally"
+
+- title: "Shutter Island"
+  director: "Martin Scorsese"
+  year: 2010
+  poster: "https://www.themoviedb.org/t/p/w1280/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+  imdb: "https://www.imdb.com/title/tt1130884/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_shutter%2520island"
+  rottentomatoes: "https://www.rottentomatoes.com/m/1198124-shutter_island"
+
+- title: "The Last Journey"
+  director: "Filip Hammar, Fredrik Wikingsson"
+  year: 2024
+  poster: "https://www.themoviedb.org/t/p/w1280/z78lsTuWmxCpMjVpCMWTtRJElTV.jpg"
+  imdb: "https://www.imdb.com/title/tt30454602/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520last%2520journey"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_last_journey"
+
+- title: "Se7en"
+  director: "David Fincher"
+  year: 1995
+  poster: "https://www.themoviedb.org/t/p/w1280/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  imdb: "https://www.imdb.com/title/tt0114369/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_se7en"
+  rottentomatoes: "https://www.rottentomatoes.com/m/seven"
+
+- title: "The Silence of the Lambs"
+  director: "Jonathan Demme"
+  year: 1991
+  poster: "https://www.themoviedb.org/t/p/w1280/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+  imdb: "https://www.imdb.com/title/tt0102926/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520silence%2520of%2520"
+  rottentomatoes: "https://www.rottentomatoes.com/m/silence_of_the_lambs"
+
+- title: "No Country for Old Men"
+  director: "Ethan Coen, Joel Coen"
+  year: 2007
+  poster: "https://www.themoviedb.org/t/p/w1280/6d5XOczc226jECq0LIX0siKtgHR.jpg"
+  imdb: "https://www.imdb.com/title/tt0477348/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_no%2520countr"
+  rottentomatoes: "https://www.rottentomatoes.com/m/no_country_for_old_men"
+
+- title: "The Wolf of Wall Street"
+  director: "Martin Scorsese"
+  year: 2013
+  poster: "https://www.themoviedb.org/t/p/w1280/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
+  imdb: "https://www.imdb.com/title/tt0993846/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_wolf%2520of%2520"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_wolf_of_wall_street_2013"
+
+- title: "Eternal Sunshine of the Spotless Mind"
+  director: "Michael Gondry"
+  year: 2004
+  poster: "https://www.themoviedb.org/t/p/w1280/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg"
+  imdb: "https://www.imdb.com/title/tt0338013/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_eternal%2520sun"
+  rottentomatoes: "https://www.rottentomatoes.com/m/eternal_sunshine_of_the_spotless_mind"
+
+- title: "The Hateful Eight"
+  director: "Quentin Tarantino"
+  year: 2015
+  poster: "https://www.themoviedb.org/t/p/w1280/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg"
+  imdb: "https://www.imdb.com/title/tt3460252/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520hateful"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_hateful_eight"
+
+- title: "Fury"
+  director: "David Ayer"
+  year: 2014
+  poster: "https://www.themoviedb.org/t/p/w1280/pfte7wdMobMF4CVHuOxyu6oqeeA.jpg"
+  imdb: "https://www.imdb.com/title/tt2713180/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_fury"
+  rottentomatoes: "https://www.rottentomatoes.com/m/fury_2015"
+
+- title: "Mission: Impossible - Ghost Protocol"
+  director: "Brad Bird"
+  year: 2011
+  poster: "https://www.themoviedb.org/t/p/w1280/psiWp3VTjznfokmGQG9uqiiknQQ.jpg"
+  imdb: "https://www.imdb.com/title/tt1229238/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_ghost%2520proto"
+  rottentomatoes: "https://www.rottentomatoes.com/m/mission_impossible_ghost_protocol"
+
+- title: "Ratatouille"
+  director: "Brad Bird, Jan Pinkava"
+  year: 2007
+  poster: "https://www.themoviedb.org/t/p/w1280/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+  imdb: "https://www.imdb.com/title/tt0382932/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_rata"
+  rottentomatoes: "https://www.rottentomatoes.com/m/ratatouille"
+
+- title: "The Lion King"
+  director: "Roger Allers, Rob Minkoff"
+  year: 1994
+  poster: "https://www.themoviedb.org/t/p/w1280/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+  imdb: "https://www.imdb.com/title/tt0110357/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_lion%2520king"
+  rottentomatoes: "https://www.rottentomatoes.com/m/the_lion_king"
+
+- title: "Johnny English"
+  director: "Peter Howitt"
+  year: 2003
+  poster: "https://www.themoviedb.org/t/p/w1280/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg"
+  imdb: "https://www.imdb.com/title/tt0274166/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_johnny%2520english"
+  rottentomatoes: "https://www.rottentomatoes.com/m/johnny_english"
