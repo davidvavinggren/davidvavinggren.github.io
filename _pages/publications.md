@@ -1,7 +1,7 @@
 ---
-title: "Research"
+title: "Publications"
 layout: single
-permalink: /research/
+permalink: /publications/
 author_profile: False
 classes: wide
 ---
@@ -26,3 +26,7 @@ NeurIPS, 2025 \\
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 ">Code</a>
+
+**[Applying Multivariate Time Series Data and Deep Learning to Probability of Default Estimation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1880845&dswid=-3202)** \\
+**David Vävinggren**, Emil Säll \\
+Master's thesis, 2024
