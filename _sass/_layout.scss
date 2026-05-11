@@ -1,0 +1,124 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+@use "variables" as v;
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 57px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: v.$max-content-width;
+}
+
+// Profile
+.profile-header {
+  align-items: stretch;
+
+  .profile-image-col {
+    max-width: 220px;
+    padding-right: 1rem;
+    align-self: flex-start;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .profile-info-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-name {
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .profile-subtitle {
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  .social {
+    text-align: left;
+    margin-top: auto;
+
+    .contact-icons {
+      display: flex;
+      gap: 0.4rem;
+      font-size: 3rem;
+
+      a {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 3rem;
+          height: 3rem;
+          margin-bottom: 0;
+          transform: none;
+        }
+
+        svg {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.about-bio {
+  margin-top: 1.5rem;
+}
+
+.post .publications {
+  margin-top: -0.05rem;
+}
+
+// Content layout uses Bootstrap's grid system with responsive columns
+// Main content flows naturally through container-mt-5 and Bootstrap grid classes
+// See _layouts/default.liquid and _includes/projects.liquid for examples
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// Publications layout is defined in _includes/bib_search.liquid
+// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.

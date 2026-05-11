@@ -1,3 +1,25 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
 .sass-cache/
 **/.sass-cache/
+.tweet-cache/
+
+# Bundler / Ruby
+vendor/
+.bundle/
+
+# Node
+node_modules/
+
+# Lighthouse / audit output
+lighthouse_results/
+
+# macOS
 .DS_Store
+**/.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/

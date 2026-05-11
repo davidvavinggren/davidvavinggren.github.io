@@ -1,0 +1,29 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@inproceedings{ribeiro2025kernel,
+  title     = {Kernel Learning with Adversarial Features: Numerical Efficiency and Adaptive Regularization},
+  author    = {Ribeiro, Antônio H. and Vävinggren, David and Zachariah, Dave and Schön, Thomas B. and Bach, Francis},
+  booktitle = {the 39th Conference on Neural Information Processing Systems},
+  abbr      = {NeurIPS},
+  year      = {2025},
+  html      = {https://arxiv.org/abs/2510.20883},
+  code      = {https://github.com/antonior92/adversarial_training_kernel},
+  abstract  = {Adversarial training has emerged as a key technique to enhance model robustness against adversarial input perturbations. Many of the existing methods rely on computationally expensive min-max problems that limit their application in practice. We propose a novel formulation of adversarial training in reproducing kernel Hilbert spaces, shifting from input to feature-space perturbations. This reformulation enables the exact solution of inner maximization and efficient optimization. It also provides a regularized estimator that naturally adapts to the noise level and the smoothness of the underlying function. We establish conditions under which the feature-perturbed formulation is a relaxation of the original problem and propose an efficient optimization algorithm based on iterative kernel ridge regression. We provide generalization bounds that help to understand the properties of the method. We also extend the formulation to multiple kernel learning. Empirical evaluation shows good performance in both clean and adversarial settings.},
+  %award_name = {Poster},
+  selected  = {true}
+}
+
+@mastersthesis{vavinggren2024applying,
+  title    = {Applying Multivariate Time Series Data and Deep Learning to Probability of Default Estimation},
+  author   = {Vävinggren, David and Säll, Emil},
+  school   = {Linköping University},
+  abbr     = {Master's Thesis},
+  year     = {2024},
+  html     = {https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1880845&dswid=-3202},
+  abstract = {The problem of determining the probability of default or credit risk for companies is crucial when providing financial services. This problem is often modeled based on snapshot data that does not take the time dimension into account. Instead, we approach the problem with enterprise resource planning data in time series. With the added complexity the time series introduce, we pose that deep learning models could be suitable for the task. A comparison of a fully convolutional network and a transformer encoder was made to the current state-of-the-art model for the probability of default problem, XGBoost. The comparison showed that XGBoost generalized very well to the time series domain, even well enough to beat the deep learning models across all evaluation metrics. Furthermore, time series data with monthly, quarterly and yearly timestamps over three years was tested. Also, public features that could be extracted from quarterly and annual financial reports were compared with internal enterprise resource planning data. We found that the introduction of time series to the problem improves the performance and that models based on internal data outperform the ones based on public data. To be more precise, we argue that the dataset being based on small to medium-sized companies lessens the impact of highly granular data, and makes the selection of what features to include more prominent. This is something XGBoost takes advantage of in a very efficient way, especially when extracting features that capture the behavior of the time series, causing it to beat the deep learning competitors even though it does not pick up on the sequential aspect of the data.},
+  selected = {true}
+}
+

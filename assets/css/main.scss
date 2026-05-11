@@ -1,99 +1,40 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
 
-@import
-    "vendor/breakpoint/breakpoint",
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
 
-    "themes",
-    "theme/default",
-    "theme/dark",
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
 
-    "include/mixins",
-    "vendor/susy/susy",
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
 
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup",
-
-    "movies"
-;
-
-/* Home left, everything else right */
-.greedy-nav .visible-links {
-  display: flex;
-  align-items: center;
-}
-
-.greedy-nav .visible-links li:first-child {
-  margin-right: auto; /* pushes the rest to the right */
-}
-
-/* spacing before the star */
-.greedy-nav #theme-toggle { margin-left: 0.75rem; }
-
-/* Optional: hide the hamburger on desktop only */
-@media (min-width: 768px) {
-  .greedy-nav > button { display: none; }
-}
-
-/* Full-width by default; only narrow when a sidebar is present */
-@media (min-width: 768px) {
-  /* Default: no sidebar => full width */
-  #main > article.page {
-    float: none !important;
-    width: 100% !important;
-    max-width: none !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-  }
-
-  /* If the sidebar is in the DOM before the article, narrow it */
-  #main > .sidebar + article.page {
-    float: right !important;
-    width: calc(100% - 300px) !important;
-  }
-}
-
-.icon-pad-small {
-  padding-right: 0.21em; /* less than the default 0.5em */
-}
-
-/* ============================= */
-/* Global link overrides         */
-/* ============================= */
-
-a {
-  color: #3498DB;     /* normal link color */
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--primary-color);    /* hover link color */
-  text-decoration: underline;
-}
+// Other specialized styles
+@use "distill";
+@use "cv";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+@use "movies";
+@use "font-awesome/fontawesome";
+@use "font-awesome/brands";
+@use "font-awesome/solid";
+@use "font-awesome/regular";

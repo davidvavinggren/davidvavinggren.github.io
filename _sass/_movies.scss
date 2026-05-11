@@ -174,7 +174,8 @@
   
   h3 {
     margin: 0 0 0.3rem 0;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
+    font-weight: bold;
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
@@ -182,21 +183,38 @@
     text-overflow: ellipsis;
     max-width: 95%;
   }
-  
+
   .artist {
     margin: 0 0 0.2rem 0;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
+    color: white !important;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 95%;
   }
-  
+
   .year {
     margin: 0 0 0.3rem 0;
-    font-size: 0.7rem;
-    opacity: 0.8;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: white !important;
+  }
+
+  .listen-button-group {
+    margin-top: 0.4rem;
+
+    a {
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: white !important;
+      text-decoration: underline;
+    }
+  }
+
+  * {
+    color: white !important;
   }
   
   // Dark mode adjustments
