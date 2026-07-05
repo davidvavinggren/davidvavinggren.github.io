@@ -1,4 +1,32 @@
 # _data/movies.yml
+- title: "The Terminal"
+  director: "Steven Spielberg"
+  year: 2004
+  poster: "https://image.tmdb.org/t/p/original/3tycxFnbTh7IeWakehir9PsCSma.jpg"
+  imdb: "https://www.imdb.com/title/tt0362227/?ref_=fn_t_1"
+  rottentomatoes: "https://www.rottentomatoes.com/m/1133499-1133499-terminal"
+
+- title: "Wicked"
+  director: "Jon M. Chu"
+  year: 2024
+  poster: "https://www.themoviedb.org/t/p/w1280/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg"
+  imdb: "https://www.imdb.com/title/tt1262426/?ref_=rt_t_30"
+  rottentomatoes: "https://www.rottentomatoes.com/m/wicked_2024"
+
+- title: "Life Is Beautiful"
+  director: "Roberto Benigni"
+  year: 1997
+  poster: "https://www.themoviedb.org/t/p/w1280/6tEJnof1DKWPnl5lzkjf0FVv7oB.jpg"
+  imdb: "https://www.imdb.com/title/tt0118799/?ref_=rt_t_17"
+  rottentomatoes: "https://www.rottentomatoes.com/m/1084398-life_is_beautiful"
+
+- title: "Cinema Paradiso"
+  director: "Giuseppe Tornatore"
+  year: 1988
+  poster: "https://www.themoviedb.org/t/p/w1280/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg"
+  imdb: "https://www.imdb.com/title/tt0095765/?ref_=rt_t_1"
+  rottentomatoes: "https://www.rottentomatoes.com/m/cinema_paradiso"
+
 - title: "Arrival"
   director: "Denis Villeneuve"
   year: 2016
