@@ -5,7 +5,7 @@ title: "¯\\_(ツ)_/¯"
 nav: false
 ---
 
-I love lists :^) These are highlights from my [favourite one](https://www.imdb.com/user/ur68403974/ratings/?ref_=hm_nv_rat) :)
+I love lists :^) These are highlights from my [favourite one](https://www.imdb.com/user/ur68403974/ratings/?ref_=hm_nv_rat) (sorted by release date) :)
 
 <div class="media-container" data-source="movies"></div>
 
